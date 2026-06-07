@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | RUNGEN RAMMOHAN ENERGY PARK</title>
+  <meta name="description" content="Get in touch with RUNGEN RAMMOHAN ENERGY PARK PRIVATE LIMITED. Submit partnership inquiries or product supply questions.">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* Custom FAQ accordion styles */
+    .faq-sec {
+      margin-top: 60px;
+    }
+    .faq-item {
+      background-color: var(--glass-bg);
+      border: 1px solid var(--glass-border);
+      border-radius: 8px;
+      margin-bottom: 16px;
+      overflow: hidden;
+      transition: all 0.3s ease;
+    }
+    .faq-trigger {
+      width: 100%;
+      text-align: left;
+      padding: 20px 24px;
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      background: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .faq-content {
+      padding: 0 24px;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s cubic-bezier(0, 1, 0, 1), padding 0.3s ease;
+      color: var(--text-secondary);
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+    .faq-item.active {
+      border-color: var(--accent);
+    }
+    .faq-item.active .faq-content {
+      max-height: 1000px;
+      padding: 0 24px 20px 24px;
+      transition: max-height 0.3s cubic-bezier(1, 0, 1, 0), padding 0.3s ease;
+    }
+    .faq-arrow {
+      transition: transform 0.3s ease;
+      color: var(--accent);
+    }
+    .faq-item.active .faq-arrow {
+      transform: rotate(180deg);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Global Header (Dynamic) -->
+  <header id="global-header"></header>
+
+  <!-- Subpage Header -->
+  <section class="section section-bg-alt text-center" style="padding: 60px 0;">
+    <div class="container animate-fade-up">
+      <h1 class="gradient-text" style="font-size: 3rem; margin-bottom: 12px;">Contact Our Team</h1>
+      <p style="color: var(--text-secondary); max-width: 700px; margin: 0 auto;">Connect with our engineering, finance, and partnership leads to support your clean energy transition.</p>
+    </div>
+  </section>
+
+  <!-- Contact main content -->
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid scroll-reveal">
+        
+        <!-- Info Column -->
+        <div>
+          <h2 style="font-size: 2rem; margin-bottom: 24px;">Get in Touch</h2>
+          <p style="color: var(--text-secondary); margin-bottom: 40px; line-height: 1.7;">
+            Whether you are an industrial consumer looking to buy green fuels, a local waste manager seeking off-take solutions, or a research institution looking to collaborate, our team is ready to respond.
+          </p>
+
+          <div class="info-item">
+            <div class="info-icon">📍</div>
+            <div class="info-content">
+              <h4>Headquarters</h4>
+              <p>Srikakulam District, Andhra Pradesh, India</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon">✉️</div>
+            <div class="info-content">
+              <h4>General Inquiries</h4>
+              <p>info@rungenrammohanenergy.com</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon">🤝</div>
+            <div class="info-content">
+              <h4>Partnerships & Sales</h4>
+              <p>partner@rungenrammohanenergy.com</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Form Column -->
+        <div class="glass-card">
+          <h3 style="font-size: 1.4rem; margin-bottom: 24px;">Send a Message</h3>
+          
+          <div id="formAlert" class="form-alert" style="margin-bottom: 20px; display: none;"></div>
+
+          <form class="contact-form" id="contactForm">
+            <div class="form-group">
+              <label for="name">Full Name *</label>
+              <input type="text" id="name" class="form-control" placeholder="Dr. Jane Doe" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="email">Work Email *</label>
+              <input type="email" id="email" class="form-control" placeholder="name@company.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject *</label>
+              <input type="text" id="subject" class="form-control" placeholder="Fuel supply / Feedstock cooperation / R&D licensing" required>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message *</label>
+              <textarea id="message" class="form-control" placeholder="Tell us about your organization and requirements..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%; height: 50px;">Send Message</button>
+          </form>
+        </div>
+
+      </div>
+
+      <!-- FAQ Section -->
+      <div class="faq-sec scroll-reveal">
+        <h2 class="section-title text-center" style="display: block;">Frequently Asked Questions</h2>
+        <p class="section-subtitle text-center">Quick answers regarding our clean energy park development and technology assets.</p>
+
+        <div style="max-width: 800px; margin: 0 auto;">
+          <!-- FAQ 1 -->
+          <div class="faq-item">
+            <button class="faq-trigger">
+              <span>Where is the RUNGEN RAMMOHAN energy park located?</span>
+              <span class="faq-arrow">▼</span>
+            </button>
+            <div class="faq-content">
+              <p>The company is planning its core energy park construction and production facilities in the Srikakulam District of Andhra Pradesh, India. This location provides convenient access to local biomass, deep water channels, and heavy industrial boiler networks.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 2 -->
+          <div class="faq-item">
+            <button class="faq-trigger">
+              <span>What feedstock materials does the park process?</span>
+              <span class="faq-arrow">▼</span>
+            </button>
+            <div class="faq-content">
+              <p>Our waste-to-energy processes are designed to process diverse feedstocks, including agricultural residues (crop straws, bagasse, husks), municipal organic solids, waste wood chips, and industrial carbon dioxide emissions captured directly from factory flue lines.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 3 -->
+          <div class="faq-item">
+            <button class="faq-trigger">
+              <span>Are your chemical catalytic processes patented?</span>
+              <span class="faq-arrow">▼</span>
+            </button>
+            <div class="faq-content">
+              <p>Yes. Dr. Ragaranjan holds a registered Indian patent for carbon sink systems and the conversion of industrial carbon dioxide molecules back into functional clean fuels. This is complemented by proprietary catalytic formulas (Ranjan's Zeo Catalyst) developed during his Ph.D. research.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 4 -->
+          <div class="faq-item">
+            <button class="faq-trigger">
+              <span>How can industrial firms partner with Rungen Rammohan?</span>
+              <span class="faq-arrow">▼</span>
+            </button>
+            <div class="faq-content">
+              <p>We establish long-term fuel off-take agreements (for green hydrogen, SAF, or Bio-CNG), sign feedstock sourcing agreements with agrarian cooperatives, and license our patented CO₂ conversion modules directly to high-emission steel, cement, or fertilizer plants.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Global Footer (Dynamic) -->
+  <footer id="global-footer"></footer>
+
+  <script src="js/main.js"></script>
+  <script>
+    // Accordion Toggle Script for the FAQs
+    document.querySelectorAll(".faq-trigger").forEach(btn => {
+      btn.addEventListener("click", () => {
+        const item = btn.parentElement;
+        const isActive = item.classList.contains("active");
+        
+        // Close other items
+        document.querySelectorAll(".faq-item").forEach(el => el.classList.remove("active"));
+        
+        if (!isActive) {
+          item.classList.add("active");
+        }
+      });
+    });
+  </script>
+</body>
+</html>
