@@ -52,7 +52,7 @@ function initLayout() {
       <div class="container navbar">
         <a href="index.html" class="logo">
           <div class="logo-icon">R</div>
-          <span>RUNGEN RAMMOHAN</span>
+          <span>RUNGEN RAMMOHAN ENERGY PARK</span>
         </a>
         <nav>
           <ul class="nav-links" id="nav-links">
@@ -79,7 +79,7 @@ function initLayout() {
           <div class="footer-brand">
             <a href="index.html" class="logo" style="margin-bottom: 16px;">
               <div class="logo-icon">R</div>
-              <span style="font-size: 1.25rem;">RUNGEN RAMMOHAN</span>
+              <span style="font-size: 1.25rem;">RUNGEN RAMMOHAN ENERGY PARK</span>
             </a>
             <p>Integrated innovative energy and power producer manufacturing next-generation clean fuels, green hydrogen, and biofuels.</p>
           </div>

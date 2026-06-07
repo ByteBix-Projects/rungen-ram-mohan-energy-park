@@ -189,11 +189,23 @@ header {
 
 .logo {
   font-family: 'Outfit', sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 800;
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
+}
+
+.logo span {
+  white-space: nowrap;
+}
+
+@media (max-width: 576px) {
+  .logo span {
+    white-space: normal;
+    font-size: 1.05rem;
+    line-height: 1.2;
+  }
 }
 
 .logo-icon {
@@ -210,15 +222,15 @@ header {
 
 .nav-links {
   display: flex;
-  gap: 24px;
+  gap: 8px;
   list-style: none;
   align-items: center;
 }
 
 .nav-links a {
   font-weight: 500;
-  font-size: 0.95rem;
-  padding: 8px 12px;
+  font-size: 0.9rem;
+  padding: 6px 8px;
   border-radius: 6px;
   color: var(--text-secondary);
 }
@@ -262,7 +274,7 @@ header {
   padding: 8px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1150px) {
   .mobile-toggle {
     display: block;
   }
