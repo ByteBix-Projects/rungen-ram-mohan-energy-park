@@ -51,7 +51,7 @@ function initLayout() {
     header.innerHTML = `
       <div class="container navbar">
         <a href="index.html" class="logo">
-          <img src="https://res.cloudinary.com/ddam1v1kr/image/upload/f_auto/q_auto/R_sd74c7.png" alt="Rungen Logo" class="logo-icon">
+          <img src="https://res.cloudinary.com/ddam1v1kr/image/upload/f_auto/q_auto/rr-logo_logt35.png" alt="Rungen Logo" class="logo-icon">
           <span>RUNGEN RAMMOHAN ENERGY PARK</span>
         </a>
         <nav>
@@ -78,7 +78,7 @@ function initLayout() {
         <div class="footer-grid">
           <div class="footer-brand">
             <a href="index.html" class="logo" style="margin-bottom: 16px;">
-              <img src="https://res.cloudinary.com/ddam1v1kr/image/upload/f_auto/q_auto/R_sd74c7.png" alt="Rungen Logo" class="logo-icon">
+              <img src="https://res.cloudinary.com/ddam1v1kr/image/upload/f_auto/q_auto/rr-logo_logt35.png" alt="Rungen Logo" class="logo-icon">
               <span style="font-size: 1.25rem;">RUNGEN RAMMOHAN ENERGY PARK</span>
             </a>
             <p>Integrated innovative energy and power producer manufacturing next-generation clean fuels, green hydrogen, and biofuels.</p>
@@ -131,7 +131,7 @@ function initTheme() {
   // Load saved theme, default to dark
   const currentTheme = localStorage.getItem("theme") || "dark";
   document.documentElement.setAttribute("data-theme", currentTheme);
-  
+
   if (themeIcon) {
     themeIcon.textContent = currentTheme === "dark" ? "🌙" : "☀️";
   }
@@ -216,7 +216,7 @@ function initContactForm() {
 
     const submitBtn = contactForm.querySelector('button[type="submit"]');
     const originalText = submitBtn.textContent;
-    
+
     // Set loading state
     submitBtn.disabled = true;
     submitBtn.innerHTML = `Sending... <span style="display:inline-block; animation:spin 1s linear infinite;">🔄</span>`;
@@ -225,7 +225,7 @@ function initContactForm() {
     setTimeout(() => {
       // Reset form
       contactForm.reset();
-      
+
       // Reset button
       submitBtn.disabled = false;
       submitBtn.textContent = originalText;
@@ -233,7 +233,7 @@ function initContactForm() {
       // Show alert
       formAlert.className = "form-alert success";
       formAlert.innerHTML = `<strong>Success!</strong> Your message has been sent. Our partnerships representative will contact you shortly.`;
-      
+
       // Auto-hide alert after 8 seconds
       setTimeout(() => {
         formAlert.style.display = "none";
