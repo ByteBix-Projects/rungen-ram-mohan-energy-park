@@ -51,7 +51,7 @@ function initLayout() {
     header.innerHTML = `
       <div class="container navbar">
         <a href="index.html" class="logo">
-          <div class="logo-icon">R</div>
+          <img src="https://res.cloudinary.com/ddam1v1kr/image/upload/f_auto/q_auto/R_sd74c7.png" alt="Rungen Logo" class="logo-icon">
           <span>RUNGEN RAMMOHAN ENERGY PARK</span>
         </a>
         <nav>
@@ -78,7 +78,7 @@ function initLayout() {
         <div class="footer-grid">
           <div class="footer-brand">
             <a href="index.html" class="logo" style="margin-bottom: 16px;">
-              <div class="logo-icon">R</div>
+              <img src="https://res.cloudinary.com/ddam1v1kr/image/upload/f_auto/q_auto/R_sd74c7.png" alt="Rungen Logo" class="logo-icon">
               <span style="font-size: 1.25rem;">RUNGEN RAMMOHAN ENERGY PARK</span>
             </a>
             <p>Integrated innovative energy and power producer manufacturing next-generation clean fuels, green hydrogen, and biofuels.</p>
