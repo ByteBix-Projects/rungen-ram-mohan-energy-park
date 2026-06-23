@@ -104,7 +104,7 @@ function initLayout() {
           <div class="footer-col">
             <h4>Contact Info</h4>
             <ul class="footer-links" style="color: var(--text-secondary)">
-              <li><strong>Headquarters:</strong> Srikakulam District, Andhra Pradesh, India</li>
+              <li><strong>Headquarters:</strong>P.N Colony, 7th Line, Gujarathipeta, Srikakulam District, Andhra Pradesh, India</li>
               <li><strong>Email:</strong> info@rungenrammohanenergypark.com</li>
               <li><strong>Inquiries:</strong> partner@rungenrammohanenergypark.com</li>
             </ul>
